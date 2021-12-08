@@ -16,7 +16,7 @@ Egor ---> Produсt Owner
 
 4)you must familiarize yourself with the project (point 5) and write a document (in your Word document in the "Proposals" folder) with your proposals for the possible implementation of the project, as well as your desire to take part in a certain part of the project.
 
-5) BSTU has a professional base for teaching students in many areas. and the main purpose of this university is to provide the  correct teeching.The main purpose of the project is to deliver truthful, balanced and non-misleading information  about the Faculty of Information Technology class schedule for students.
+5) BSTU has a professional base for teaching students in many areas. and the main purpose of this university is to provide the  correct teeching.The main purpose of the projegitct is to deliver truthful, balanced and non-misleading information  about the Faculty of Information Technology class schedule for students.
 
 plan:
 1) Business card website
