@@ -1,0 +1,3 @@
+#esse0 - Alexey
+
+Development of cross-platform application...
