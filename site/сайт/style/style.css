@@ -298,16 +298,26 @@ ul .li1{
     height: 100%;
     
 }
+.pp1{
+    width: 50%;
+}
 .aaaa{
-    height: 210vh;
+    height: 180vh;
+}
+.ppr1{
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .imgprog1{
+    height: 43%;
     display: flex;
     justify-content: space-around;
 }
 .pp2{
-    height: 97%;
-    width: 40%;
+    height: 100%;
+    width: 42%;
 }
 
 .pr1{
