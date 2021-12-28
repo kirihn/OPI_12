@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.fix{
+    position: fixed;
+}
+.while{
+    height: 60vh;
+    background: rgb(238, 238, 238);
+}
+.logo{
+    width: 200px;
+    height: 80px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(238, 238, 238);
+}
+.ul_header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.li_header{
+    list-style: none;
+    padding: 0 15px 0 15px;
+}
+.a_header  {
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .a_header:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: 0;
+    transition: .4s;
+    transform: scale(0);
+  }
+  .a_header:hover:before {
+    transform: scale(1);
+  }
+  .a_header:hover {
+    color: rgb(95, 95, 95);
+  }
+  .line{
+    background: rgb(238, 238, 238);
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .lineT{
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: black;
+      margin: 0 15px 0 15px;
+  }
+  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+  .wel{
+    width: 380px;
+    padding: 5px 10px 5px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 300px;
+    text-align: center;
+  }
+  .footer{
+      align-items: center;
+    height: 20vh;
+    background-color: #000;
+    /*background: rgb(238, 238, 238);*/
+    display: flex;
+    justify-content: space-around;
+}
+.dov_f1{
+    color: rgb(95, 95, 95);
+}
+
+/*      ///////////     */
+.parallax-window{
+    height: 85vh;
+}
+.slog_gl{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    text-shadow: 0 0 60px black;
+}
+.otstp{
+    width: 25%;
+}
+.Glavnaya:before {
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scale(1);
+}
+
