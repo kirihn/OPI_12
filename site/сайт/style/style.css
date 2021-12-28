@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.while{
+    height: 60vh;
+    background: rgb(252, 252, 252);
+}
+.aaa{
+    height: 80px;
+}
+.logo{
+    
+    width: 150px;
+    height: 70px;
+}
+header{
+    position: fixed;
+    
+}
+.ya1{
+    position: relative; 
+    top: -79px;
+}
+hr{
+    display: inline;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(252, 252, 252);
+    z-index:2;
+}
+.ul_header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.li_header{
+    list-style: none;
+    padding: 0 15px 0 15px;
+}
+.a_header  {
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .a_header:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: 0;
+    transition: .4s;
+    transform: scale(0);
+  }
+  .a_header:hover:before {
+    transform: scale(1);
+  }
+  .a_header:hover {
+    color: rgb(95, 95, 95);
+  }
+  .line{
+    background: rgb(252, 252, 252);
+      padding-bottom: 10px;
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .lineT{
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: black;
+      margin: 0 15px 0 15px;
+  }
+  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+  .wel{
+    width: 380px;
+    padding: 5px 10px 5px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 300px;
+    text-align: center;
+  }
+  .footer{
+    align-items: center;
+    height: 20vh;
+    background: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-around;
+}
+.dov_f1{
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+/*      ///////////     */
+.while{
+    height: auto;
+    padding-bottom: 30px;
+}
+.parallax-window{
+    height: 80vh;
+}
+.slog_gl{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vw;
+    text-shadow: 0 0 60px black;
+}
+.otstp{
+    width: 25%;
+}
+
+/* О нас  */
+
+.cont_about_us{
+    display: flex;
+    
+}
+.text_about_us{
+    width: 50%;
+    align-items: center;
+}
+.text_about_us p{
+    font-size: 40px;
+    padding-left: 40px;
+}
+.text_about_us ul{
+    font-size: 40px;
+    padding-left: 40px;
+}
+.text_about_us2{
+    display: flex;
+    flex-direction: row;
+}
+div .p1{
+    font-size: 4.5vw;
+    text-shadow: 10px 0px 30px rgb(104, 104, 104);
+}
+div .p2{
+    font-size: 3vw;
+}
+ul .li1{
+    font-size:  2.2vw;
+    margin-left: 20px;
+}
+.cont_for_chr{
+    align-items: center;
+    padding-left: 20px;
+    border-left: 5px solid black;
+}
+.container_people{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    height: 80vh;
+    align-items: center;
+}
+.peep1{
+    width: 100%;
+    height: 85%;
+    background: url(../img/IMG_9039.JPG) no-repeat;
+    background-size: cover ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    transition: 0.3s;
+}
+.peep2{
+    width: 100%;
+    height: 85%;
+    background: url(../img/document.jpg) no-repeat;
+    background-size: cover ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    transition: 0.3s;
+}
+.peep3{
+    width: 100%;
+    height: 85%;
+    background: url(../img/aixGRZUy8gA.jpg) no-repeat;
+    background-size: cover ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    transition: 0.3s;
+}
+.peep4{
+    width: 100%;
+    height: 85%;
+    background: url(../img/WIN_20210927_15_51_59_Pro\ \(3\).jpg) no-repeat;
+    background-size: cover ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    transition: 0.3s;
+}
+.peep5{
+    width: 100%;
+    height: 85%;
+    background: url(../img/катя.jpg) no-repeat;
+    background-size: cover ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    transition: 0.3s;
+}
+.hover_shadow{
+    background: rgb(39, 39, 39);
+    width: 18%;
+    height: 75%;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.who1{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    transition: 0.3s;
+}
+.who1 p{
+    font-size: 1.5vw;
+}
+.hover_shadow:hover > div{
+    opacity: 0.6;
+}
+.op0 p{
+    font-size: 17px;
+    opacity: 1;
+}
+.op0{
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.hover_shadow:hover .op0{
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    opacity: 1;
+}
+
+/*/////   Проект   /////*/
+
+
+.prolozh{
+        padding-top: 30px;
+}
+.header_pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_pr p {
+    font-size: 5vw;
+    margin-top: -25px;
+}
+.our_pluses{
+    background: rgb(252, 252, 252);
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    padding: 2% 10% 2% 10%;
+}
+.opisanie{
+    font-size: 2vw;
+}
+.opisanie2{
+    font-size: 3.3vw;
+}
+.imgprog{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+.pp1{
+    width: 50%;
+}
+.aaaa{
+    height: 180vh;
+}
+.ppr1{
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.imgprog1{
+    height: 43%;
+    display: flex;
+    justify-content: space-around;
+}
+.pp2{
+    height: 100%;
+    width: 42%;
+}
+
+.pr1{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* СКАЧАТЬ */
+.down{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(252, 252, 252);
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+.forAndroid{
+    text-align: center;
+    
+}
+.forPC{
+    
+    text-align: center;
+}
+.downp{
+    font-size: 45px;
+    padding-bottom: 40px;
+    
+}
+.imgdown{
+    height: 75px;
+    width: 300px;
+}
